@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- PRELOAD -->
+  <link rel="preload" href="stylesheet/normalize.css" as="style" />
+  <link rel="stylesheet" href="stylesheet/normalize.css" />
+  <!-- STYLES -->
+  <link rel="preload" href="stylesheet/style.css" as="style" />
+  <link rel="stylesheet" href="stylesheet/style.css" />
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet" />
+
+  <title>CoffeeBlog</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="bar">
+        <a href="/index.html" class="logo">
+          <h1 class="logo__name no-margin text-center">Coffee<span class="logo__bold">Blog</span></h1>
+        </a>
+
+        <nav class="nav">
+          <a class="nav__link" href="about.html">About</a>
+          <a class="nav__link" href="#">More content</a>
+          <!-- <a class="nav__link" href="#">Contact</a> -->
+        </nav>
+      </div>
+    </div>
+
+    <div class="header__text">
+
+      <h2 class="no-margin">Coffee Blog with tips and tricks</h2>
+
+      <p class="no-margin">Lear from the best with the best recipes and tips</p>
+    </div>
+  </header>
+
+  <div class="container main-content">
+    <main class="blog">
+      <h3>My blog</h3>
+
+      <article class="article">
+        <div class="article__image">
+          <img loading="lazy" src="img/blog1.jpg" alt="Coffee beans" />
+        </div>
+        <div class="article__text">
+          <h4 class="article__title no-margin">Types of coffee beans</h4>
+          <p class="article__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora saepe totam
+            reprehenderit voluptatem accusamus, quis fuga voluptates facere commodi impedit! Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Quo quaerat sunt ipsa dolorem! Quibusdam alias laboriosam corporis accusamus?
+            Labore, impedit?</p>
+          <a href="#" class="boton boton--primary">More info</a>
+        </div>
+      </article>
+
+      <article class="article">
+        <div class="article__image">
+          <img loading="lazy" src="img/blog2.jpg" alt="Coffee beans" />
+        </div>
+        <div class="article__text">
+          <h4 class="article__title no-margin">Types of coffee beans</h4>
+          <p class="article__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora saepe totam
+            reprehenderit voluptatem accusamus, quis fuga voluptates facere commodi impedit! Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Quo quaerat sunt ipsa dolorem! Quibusdam alias laboriosam corporis accusamus?
+            Labore, impedit?</p>
+          <a href="#" class="boton boton--primary">More info</a>
+        </div>
+      </article>
+
+      <article class="article">
+        <div class="article__image">
+          <img loading="lazy" src="img/blog3.jpg" alt="Coffee beans" />
+        </div>
+        <div class="article__text">
+          <h4 class="article__title no-margin">Types of coffee beans</h4>
+          <p class="article__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora saepe totam
+            reprehenderit voluptatem accusamus, quis fuga voluptates facere commodi impedit! Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Quo quaerat sunt ipsa dolorem! Quibusdam alias laboriosam corporis accusamus?
+            Labore, impedit?</p>
+          <a href="#" class="boton boton--primary">More info</a>
+        </div>
+      </article>
+    </main>
+    <aside class="sidebar">
+      <h3>More content</h3>
+      <ul class="techniques no-padding">
+        <li class="widget-curso">
+          <h4 class="no-margin">Techniques to extract coffee</h4>
+          <p class="widget-curso__label">
+            Precio:
+            <span class="widget-curso__info">$20.00</span>
+          </p>
+          <p class="widget-curso__label">
+            Cupo:
+            <span class="widget-curso__info">10</span>
+          </p>
+          <a href="#" class="boton boton--secondary">
+            Get it now
+          </a>
+        </li>
+        <li class="widget-curso">
+          <h4 class="no-margin">More about coffee beans</h4>
+          <p class="widget-curso__label">
+            Precio:
+            <span class="widget-curso__info">$20.00</span>
+          </p>
+          <p class="widget-curso__label">
+            Cupo:
+            <span class="widget-curso__info">10</span>
+          </p>
+          <a href="#" class="boton boton--secondary">
+            Get it now
+          </a>
+        </li>
+        <li class="widget-curso">
+          <h4 class="no-margin">Ways to prepare coffee</h4>
+          <p class="widget-curso__label">
+            Precio:
+            <span class="widget-curso__info">$20.00</span>
+          </p>
+          <p class="widget-curso__label">
+            Cupo:
+            <span class="widget-curso__info">10</span>
+          </p>
+          <a href="#" class="boton boton--secondary">
+            Get it now
+          </a>
+        </li>
+      </ul>
+    </aside>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <p class="footer__text no-margin">Coffee Blog &copy; 2025</p>
+        <nav class="footer__nav">
+          <a href="#" class="footer__link">About <span class="footer__social-link__bar">|</span></a>
+          <a href="#" class="footer__link">More content <span class="footer__social-link__bar">|</span></a>
+          <a href="#" class="footer__link">Contact </a>
+        </nav>
+      </div>
+
+    </div>
+
+  </footer>
+
+  <script src="js/modernizr.js"></script>
+</body>
+
+</html>
